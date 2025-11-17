@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -13,10 +13,175 @@
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<link href="css/responsive.css" rel="stylesheet">
-<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <link href="css/responsive.css" rel="stylesheet">
+        <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+        <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    line-height: 1.6;
+                    color: #333;
+                }
+                
+                h1 {
+                    text-align: center;
+                    color: #2c3e50;
+                    margin-bottom: 10px;
+                }
+                
+                .subtitle {
+                    text-align: center;
+                    font-size: 1.2em;
+                    color: #555;
+                    margin-bottom: 5px;
+                }
+                
+                .conference-info {
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                
+                .conference-info a {
+                    color: #3498db;
+                    text-decoration: none;
+                }
+                
+                .conference-info a:hover {
+                    text-decoration: underline;
+                }
+                
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 30px;
+                }
+                
+                .day-header {
+                    background-color: #2c3e50;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1.1em;
+                    padding: 10px;
+                }
+                
+                td {
+                    padding: 12px 10px;
+                    border-bottom: 1px solid #ddd;
+                    vertical-align: top;
+                }
+                
+                .time-col {
+                    width: 150px;
+                    white-space: nowrap;
+                    font-weight: bold;
+                    color: #2c3e50;
+                }
+                
+                .keynote-box {
+                    background-color: #fff3cd;
+                    padding: 15px;
+                    border-left: 4px solid #ffc107;
+                    margin: 10px 0;
+                }
+                
+                .keynote-speaker {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    margin-top: 10px;
+                }
+                
+                .keynote-image {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                
+                .speaker-info h3 {
+                    margin: 0 0 5px 0;
+                    color: #2c3e50;
+                }
+                
+                .speaker-title {
+                    font-style: italic;
+                    color: #666;
+                    margin-bottom: 10px;
+                }
+                
+                .session-header {
+                    background-color: #e8f4f8;
+                    padding: 10px;
+                    margin: 15px 0 10px 0;
+                    border-left: 4px solid #3498db;
+                    font-weight: bold;
+                }
+                
+                .session-chair {
+                    font-style: italic;
+                    color: #555;
+                    margin-bottom: 10px;
+                }
+                
+                .paper-list {
+                    list-style: none;
+                    padding: 0;
+                }
+                
+                .paper-list li {
+                    margin-bottom: 15px;
+                    padding-left: 20px;
+                    position: relative;
+                }
+                
+                .paper-list li:before {
+                    content: "•";
+                    position: absolute;
+                    left: 0;
+                    color: #3498db;
+                    font-weight: bold;
+                }
+                
+                .paper-title {
+                    font-weight: bold;
+                    color: #2c3e50;
+                }
+                
+                .paper-id {
+                    color: #999;
+                    font-size: 0.9em;
+                }
+                
+                .authors {
+                    color: #666;
+                    font-size: 0.95em;
+                    font-style: italic;
+                }
+                
+                .break-row {
+                    background-color: #f8f9fa;
+                    font-style: italic;
+                }
+                
+                .tour-row {
+                    background-color: #d4edda;
+                    font-weight: bold;
+                }
+                
+                .footer {
+                    text-align: center;
+                    margin-top: 40px;
+                    padding-top: 20px;
+                    border-top: 2px solid #ddd;
+                    color: #666;
+                }
 
+
+            
+          </style>
 </head>
 
 <body>
@@ -139,6 +304,453 @@
     			<div class="text"> </div>
 				<a href="IWSDA25- Program.pdf">Click to view the full program of IWSDA 2025.</a>
    			</div>
+            
+            <div class="sec-title">
+                <h3>Conference Schedule</h3>
+                <div class="separator"></div>
+                <div class="text"> </div>
+                <table>
+                    <!-- SUNDAY, DECEMBER 7 -->
+                    <tr>
+                        <td colspan="2" class="day-header">Sunday, December 7, 2025</td>
+                    </tr>
+                    <tr class="break-row">
+                        <td class="time-col">18:00</td>
+                        <td>Evening Welcome Event</td>
+                    </tr>
+
+                    <!-- MONDAY, DECEMBER 8 -->
+                    <tr>
+                        <td colspan="2" class="day-header">Monday, December 8, 2025</td>
+                    </tr>
+                    <tr class="break-row">
+                        <td class="time-col">08:30–09:00</td>
+                        <td>Registration with Coffee & Tea</td>
+                    </tr>
+                    <tr>
+                        <td class="time-col">09:00–09:20</td>
+                        <td><strong>Opening Remarks</strong></td>
+                    </tr>
+                    
+                    <!-- SESSION 1 -->
+                    <tr>
+                        <td class="time-col">09:20–11:00</td>
+                        <td>
+                            <div class="session-header">Session 1: Sequences-I</div>
+                            <div class="session-chair">Session Chair: Yang Yang</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 12]</span>
+                                    <span class="paper-title">New Sequence Design Metric for AMP Synchronization Field</span><br>
+                                    <span class="authors">Shukai Wang, Zhengchun Zhou, Yang Yang and Xiaohu Tang</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 13]</span>
+                                    <span class="paper-title">Four Families of Binary Sequences With Low Ambiguity Function Properties</span><br>
+                                    <span class="authors">Furong Bao, Zhengchun Zhou, Yang Yang and Ping Deng</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 2]</span>
+                                    <span class="paper-title">Unimodular Sequence Design for Local Ambiguity Function Shaping</span><br>
+                                    <span class="authors">Enbo Hu, Yubo Li, Tao Liu and Xiaoyu Chen</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 10]</span>
+                                    <span class="paper-title">Integer-valued Complete Complementary Codes Based on Hadamard-type Matrices over Finite Fields</span><br>
+                                    <span class="authors">Tetsuya Kojima</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 20]</span>
+                                    <span class="paper-title">New Sets of Even-Length Binary Z-Complementary Pairs With Large Zero Correlation Zones</span><br>
+                                    <span class="authors">Avik Adhikary, Zhengchun Zhou, Xiaohu Tang and Ping Deng</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">11:00–11:20</td>
+                        <td>Coffee/Tea Break</td>
+                    </tr>
+
+                    <!-- KEYNOTE 1 -->
+                    <tr>
+                        <td class="time-col">11:20–12:20</td>
+                        <td>
+                            <div class="keynote-box">
+                                <strong>Keynote Speech 1</strong>
+                                <div class="keynote-speaker">
+                                    <div class="speaker-info">
+                                        <h3>Professor Pingzhi Fan</h3>
+                                        <div class="speaker-title">Southwest Jiaotong University</div>
+                                        <div style="text-align:center;">
+                                            <img src="images/photos/Pingzhi_Fan-Photo211211.jpg" alt="" style="height:70px; margin:5px;">
+                                        </div>
+                                        <strong>2D Delay-Doppler Pilots Based on Perfect Arrays/Sequences and Channel Estimation for MIMO OTFS</strong>
+                                        <p><strong>Abstract:</strong> Orthogonal time frequency space (OTFS) is a novel modulation scheme to handle the high Doppler effect under time varying channels. This talk discusses 2D pilots formed using perfect arrays and perfect-sequence based Kronecker arrays, using code division multiplexing to deal with pilot pollution in multi-antenna scenarios.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">12:20–13:50</td>
+                        <td>Lunch</td>
+                    </tr>
+
+                    <!-- SESSION 2 -->
+                    <tr>
+                        <td class="time-col">13:50–15:30</td>
+                        <td>
+                            <div class="session-header">Session 2: Decoding, Detection, and DNA Storage</div>
+                            <div class="session-chair">Session Chair: Adrish Banerjee</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 1]</span>
+                                    <span class="paper-title">A Fast Decoding Algorithm for Generalized Reed-Solomon Codes and Alternant Codes</span><br>
+                                    <span class="authors">Nianqi Tang, Yunghsiang Han, Danyang Pei and Chao Chen</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 34]</span>
+                                    <span class="paper-title">Backward Fano Decoding for PAC Codes</span><br>
+                                    <span class="authors">Po-Cheng Kung, Chung-Hsuan Wang and Chi-Chao Chao</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 17]</span>
+                                    <span class="paper-title">Clustering-Free and Clustering-Based Outer Channel Modeling and Decoding for DNA Storage</span><br>
+                                    <span class="authors">Zhijun Yuan, Yi Ding, Xuan He and Xiaohu Tang</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 9]</span>
+                                    <span class="paper-title">Double skew cyclic codes over Z_4 + u Z_4</span><br>
+                                    <span class="authors">Saumya Shah and Amit Sharma</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 25]</span>
+                                    <span class="paper-title">Construction of Codes Over F_{p^3} From Cyclic Codes</span><br>
+                                    <span class="authors">Shikha Patel, Soham Ravikant Joshi and Om Prakash</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">15:30–16:00</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- SESSION 3 -->
+                    <tr>
+                        <td class="time-col">16:00–17:20</td>
+                        <td>
+                            <div class="session-header">Session 3: Coding Theory: Hulls and Structures</div>
+                            <div class="session-chair">Session Chair: Zhengchun Zhou</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 11]</span>
+                                    <span class="paper-title">The Hull of Subfield Codes / Subcodes and Their Relationship with Two Generic Constructions of Linear Codes</span><br>
+                                    <span class="authors">Virginio Fratianni and Sihem Mesnager</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 35]</span>
+                                    <span class="paper-title">On the Euclidean and Hermitian Hulls of a Class of Twisted Generalized Elliptic Curve Codes</span><br>
+                                    <span class="authors">Xiaofeng Liu, Jun Zhang and Fang-Wei Fu</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 3]</span>
+                                    <span class="paper-title">Lexicographic Unequal Error Protection Codes</span><br>
+                                    <span class="authors">Tomohiko Saito, Yoshifumi Ukita and Toshiyasu Matsushima</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 26]</span>
+                                    <span class="paper-title">A class of Distance-Optimal Divisible Codes from Simplicial Complexes</span><br>
+                                    <span class="authors">Vidya Sagar, Rong Luo, Avik Ranjan Adhikary and Zhengchun Zhou</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 42]</span>
+                                    <span class="paper-title">On some p-ary few-weight linear codes by the help of Weil sums</span><br>
+                                    <span class="authors">Mrinal Kanti Bose, Udaya Parampalli and Abhay Kumar Singh</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <!-- TUESDAY, DECEMBER 9 -->
+                    <tr>
+                        <td colspan="2" class="day-header">Tuesday, December 9, 2025</td>
+                    </tr>
+                    <tr class="break-row">
+                        <td class="time-col">08:30–09:20</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- KEYNOTE 2 -->
+                    <tr>
+                        <td class="time-col">09:20–10:20</td>
+                        <td>
+                            <div class="keynote-box">
+                                <strong>Keynote Speech 2</strong>
+                                <div class="keynote-speaker">
+                                    <div class="speaker-info">
+                                        <h3>Professor Sihem Mesnager</h3>
+                                        <div class="speaker-title">University of Paris VIII & Telecom Paris</div>
+                                        <div style="text-align:center;">
+                                            <img src="images/photos/SihemMesnager.jpg" alt="" style="height:70px; margin:5px;">
+                                        </div>
+                                        <strong>Algebraic Equations over Finite Fields: Advances in Resolution Techniques and Practical Impacts in Modern Technology</strong>
+                                        <p><strong>Abstract:</strong> This talk discusses the problem of solving algebraic equations over finite fields, a fundamental issue critical to information theory and cryptography. We present significant recent achievements in solving key algebraic equations and discuss the methodologies and mathematical ingredients of these developments.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">10:20–10:40</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <tr class="tour-row">
+                        <td class="time-col">11:00–18:00</td>
+                        <td>Tour (Half-day excursion)</td>
+                    </tr>
+
+                    <!-- WEDNESDAY, DECEMBER 10 -->
+                    <tr>
+                        <td colspan="2" class="day-header">Wednesday, December 10, 2025</td>
+                    </tr>
+                    <tr class="break-row">
+                        <td class="time-col">08:30–09:20</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- SESSION 4 -->
+                    <tr>
+                        <td class="time-col">09:20–11:00</td>
+                        <td>
+                            <div class="session-header">Session 4: Security and Communication Protocols (Learning-Based)</div>
+                            <div class="session-chair">Session Chair: Hong-Yeop Song</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 43]</span>
+                                    <span class="paper-title">Learning-Based RIS-Assisted Secure Beamforming Design: A User-Scalable GNN Approach</span><br>
+                                    <span class="authors">Natasha Elizabeth Francis, Peng Cheng, William D. Lukito and Yijie Gao</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 36]</span>
+                                    <span class="paper-title">Soft-DDQN-Based Frequency Selection Strategy in Time-Slotted Channel Hopping Networks</span><br>
+                                    <span class="authors">Siming Pang, Xianhua Niu, Shiyang Zhou, Bing Liu, Bosen Zeng and Pengxu Chen</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 37]</span>
+                                    <span class="paper-title">Frequency Hopping Sequences Search Algorithm Based on Deep Reinforcement Learning</span><br>
+                                    <span class="authors">Siqi Yang, Xianhua Niu, Shiyang Zhou, Bing Liu, Pengxu Chen and Chao Qi</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 41]</span>
+                                    <span class="paper-title">Verifiability of SPIR Schemes with Malicious Users</span><br>
+                                    <span class="authors">Emelie Ekenstedt and Lawrence Ong</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 33]</span>
+                                    <span class="paper-title">A Two-Stage Queue-Aware Prioritized ACB Scheme for Massive Machine-Type Communications</span><br>
+                                    <span class="authors">Yuxuan Wen, Liu Yang, Chaoyuan Bai, Heng Liu, Ping Wang and Xinhang Tan</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">11:00–11:20</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- KEYNOTE 3 -->
+                    <tr>
+                        <td class="time-col">11:20–12:20</td>
+                        <td>
+                            <div class="keynote-box">
+                                <strong>Keynote Speech 3</strong>
+                                <div class="keynote-speaker">
+                                    <div class="speaker-info">
+                                        <h3>Professor Stephen Bartlett</h3>
+                                        <div class="speaker-title">University of Sydney</div>
+                                        <div style="text-align:center;">
+                                            <img src="images/photos/Bartlett_headshot_sq_web.jpeg" alt="" style="height:70px; margin:5px;">
+                                        </div>
+                                        <strong>Quantum computing with faulty devices</strong>
+                                        <p><strong>Abstract:</strong> This talk provides an overview of recent developments in fault-tolerant architectures for quantum computing, including the use of new types of quantum codes based on low-density parity check (LDPC) codes, and why these developments will enable large-scale quantum computing before the end of this decade.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">12:20–13:50</td>
+                        <td>Lunch</td>
+                    </tr>
+
+                    <!-- SESSION 5 -->
+                    <tr>
+                        <td class="time-col">13:50–15:30</td>
+                        <td>
+                            <div class="session-header">Session 5: Security and Cryptography</div>
+                            <div class="session-chair">Session Chair: Sedar Boztas</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 16]</span>
+                                    <span class="paper-title">Silver Nano particles device based lightweight cryptographic system toward IoT edge security</span><br>
+                                    <span class="authors">Hiroki Tabata, Yuma Yamashita, Yusuke Nakaoka, Oradee Srikimkaew, Yuki Usami, Shunsuke Araki and Hirofumi Tanaka</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 22]</span>
+                                    <span class="paper-title">A Study on Integerization of 4-Dimensional Lorenz-Stenflo System for A Key Sharing Method</span><br>
+                                    <span class="authors">Keishi Kanzaki, Kohei Takaichi, Jun-Juh Yan, Takeru Miyazaki, Satoshi Uehara and Shunsuke Araki</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 4]</span>
+                                    <span class="paper-title">On the Chaotic Behavior of Integer Sequences from Linear Feedback Shift Registers</span><br>
+                                    <span class="authors">Hyojeong Choi, Gangsan Kim, Hong-Yeop Song and Hongjun Noh</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 15]</span>
+                                    <span class="paper-title">MATRIX: Mixed-basis Architecture using Towering Field Representations for Extendable Grostl State Blocks</span><br>
+                                    <span class="authors">Yuta Kodera and Yasuyuki Nogami</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 14]</span>
+                                    <span class="paper-title">A study on extract bits of pseudorandom sequences generated by Me operation on the elliptic curve</span><br>
+                                    <span class="authors">Renta Yamauchi, Natsuo Hayashi, Takeru Miyazaki, Shunsuke Araki and Satoshi Uehara</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">15:30–16:00</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">18:30</td>
+                        <td><strong>Conference Banquet</strong><br>Location: Uni House</td>
+                    </tr>
+
+                    <!-- THURSDAY, DECEMBER 11 -->
+                    <tr>
+                        <td colspan="2" class="day-header">Thursday, December 11, 2025</td>
+                    </tr>
+                    <tr class="break-row">
+                        <td class="time-col">08:30–09:20</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- SESSION 6 -->
+                    <tr>
+                        <td class="time-col">09:20–10:20</td>
+                        <td>
+                            <div class="session-header">Session 6: Next-Gen Wireless Systems and Estimation</div>
+                            <div class="session-chair">Session Chair: Chi-chao Chao</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 21]</span>
+                                    <span class="paper-title">Grid Evolution Based on Cluster Fusion for Doubly Fractional Channel Estimation in OTFS Systems</span><br>
+                                    <span class="authors">Xiangjun Li, Qianli Wang, Zilong Liu and Zhengchun Zhou</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 18]</span>
+                                    <span class="paper-title">Efficient Signal Detection Method Based on Sparse Bayesian Learning in ZP-OTFS Systems</span><br>
+                                    <span class="authors">Xueping Lan, Xiaoxu Zhang, Pingzhi Fan, Zhengquan Zhang, Xianfu Lei, Yi Zhou, Li Hao and Zheng Ma</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 39]</span>
+                                    <span class="paper-title">Improved Channel Estimation Scheme for STAR-RIS-Assisted Communication Systems</span><br>
+                                    <span class="authors">Shibsankar Das and Adrish Banerjee</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">10:20–10:40</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+
+                    <!-- SESSION 7 -->
+                    <tr>
+                        <td class="time-col">10:40–12:20</td>
+                        <td>
+                            <div class="session-header">Session 7: Sequences-II</div>
+                            <div class="session-chair">Session Chair: Tetsuya Kojima</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 32]</span>
+                                    <span class="paper-title">Two Novel Constructions of Mutually Orthogonal Complementary Sets</span><br>
+                                    <span class="authors">Yu Wang, Dejiao Cai, Yongqiu Chen, Zilong Liu, Chunlei Li and Xiuping Peng</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 8]</span>
+                                    <span class="paper-title">New Constructions of Golay-ZCZ Arrays with Flexible Parameters via EGBFs</span><br>
+                                    <span class="authors">Aditya Prakash, Prashant Kumar Srivastava and Sudhan Majhi</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 38]</span>
+                                    <span class="paper-title">Golay-ZCZ Sequence Sets with Flexible Lengths Based on Matrices of Polynomials</span><br>
+                                    <span class="authors">Shibsankar Das, Adrish Banerjee, Udaya Parampalli and Zilong Liu</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 27]</span>
+                                    <span class="paper-title">Training Design for Generalized Spatial Modulation Systems Based on Sparse Zero-Correlation Zone Arrays</span><br>
+                                    <span class="authors">Cheng-Yu Pai, Hen-Geul Yeh and Chao-Yu Chen</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 31]</span>
+                                    <span class="paper-title">Construction of Binary Sequence Having PMEPR Bounded by 4</span><br>
+                                    <span class="authors">Piyush Priyanshu, Sudhan Majhi and Subhabrata Paul</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">12:20–13:50</td>
+                        <td>Lunch</td>
+                    </tr>
+
+                    <!-- SESSION 8 -->
+                    <tr>
+                        <td class="time-col">13:50–15:30</td>
+                        <td>
+                            <div class="session-header">Session 8: Sequences, Source Coding, and Applications</div>
+                            <div class="session-chair">Session Chair: Avik Ranjan Adhikary</div>
+                            <ul class="paper-list">
+                                <li>
+                                    <span class="paper-id">[Paper 19]</span>
+                                    <span class="paper-title">On Decimations of m-sequences giving few valued cross correlations</span><br>
+                                    <span class="authors">Serdar Boztas, Ferruh Ozbudak, Elif Kurtaran Ozbudak and Eda Tekin</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 28]</span>
+                                    <span class="paper-title">Simulated Channel State Information in Indoor Environments for Respiration Monitoring Using Sionna</span><br>
+                                    <span class="authors">James Rhodes, Lawrence Ong and Duy Ngo</span>
+                                </li>
+                                <li>
+                                    <span class="paper-id">[Paper 7]</span>
+                                    <span class="paper-title">Fairer Noiseless Broadcast Source Coding</span><br>
+                                    <span class="authors">Serdar Boztas</span>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr class="break-row">
+                        <td class="time-col">15:30–16:00</td>
+                        <td>Coffee & Tea</td>
+                    </tr>
+                </table>
+               </div>
     		
     	</div>
     </section>
